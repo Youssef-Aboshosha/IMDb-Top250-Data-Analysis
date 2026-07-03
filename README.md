@@ -7,11 +7,11 @@ An interactive Power BI dashboard designed to analyze and uncover patterns withi
 ## 📊 Dashboard Previews
 
 ### Page 1: Overview & Time-Series Analysis
-![Overview Dashboard](Screenshots/image_a3b2d8.png)
 <img width="1298" height="727" alt="Screenshot 2026-07-02 213241" src="https://github.com/user-attachments/assets/41990397-33a8-4e14-9ae4-d999742db090" />
+<img width="1301" height="723" alt="Screenshot 2026-06-29 105838" src="https://github.com/user-attachments/assets/ccb41403-a954-43fd-b783-32656ed99eb0" />
 
 ### Page 2: Correlation & Engagement Insights
-![Correlation Dashboard](Screenshots/image_a3b31b.png)
+<img width="1295" height="722" alt="Screenshot 2026-06-29 105849" src="https://github.com/user-attachments/assets/4df00160-d2ed-4b93-88f1-8950ee52aa68" />
 
 ---
 
