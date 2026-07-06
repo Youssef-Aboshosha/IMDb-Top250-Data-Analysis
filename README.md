@@ -1,39 +1,120 @@
-# 🎬 IMDb Top 250 Data Analytics Dashboard
+# 🎬 IMDb Top 250 Movies Analytics Dashboard
 
-An interactive Power BI dashboard designed to analyze and uncover patterns within the top-rated 250 movies in cinema history, spanning from 1921 to 2025. This project focuses on data distribution across different cinematic eras, voter engagement, and the correlation between movie runtimes and ratings.
+An end-to-end **Power BI** analytics project exploring the **IMDb Top 250 Movies (1921–2025)**. The dashboard transforms raw movie data into interactive visualizations that reveal trends in ratings, audience engagement, runtime, cinematic eras, and the global distribution of filmmaking talent.
 
----
-
-## 📊 Dashboard Previews
-
-### Page 1: Overview & Time-Series Analysis
-<img width="1298" height="727" alt="Screenshot 2026-07-02 213241" src="https://github.com/user-attachments/assets/41990397-33a8-4e14-9ae4-d999742db090" />
-<img width="1301" height="723" alt="Screenshot 2026-06-29 105838" src="https://github.com/user-attachments/assets/ccb41403-a954-43fd-b783-32656ed99eb0" />
-
-### Page 2: Correlation & Engagement Insights
-<img width="1295" height="722" alt="Screenshot 2026-06-29 105849" src="https://github.com/user-attachments/assets/4df00160-d2ed-4b93-88f1-8950ee52aa68" />
+Designed with a modern **glassmorphism-inspired dark UI**, the project combines data storytelling, advanced DAX calculations, and interactive analytics to deliver a premium dashboard experience.
 
 ---
 
-## 📈 Key Dashboard Features & Insights
+## 📸 Dashboard Preview
 
-* **Core Metrics at a Glance:** Tracks a total of **250 movies** with an overall **Average Rating of 8.31** and a massive **Total Engagement of 188M+ votes** across the dataset.
-* **Cinematic Eras Segmentation:** Categorized movies into distinct eras (*Old Era*, *Golden Classic Era*, and *New Era*) using custom DAX, showing that the *New Era* holds the largest share with **42.8% (107 movies)**.
-* **Advanced Correlation Analysis:** 
-  * Built a custom Scatter Plot to map movie distribution by Era, Number of Votes, and Rating.
-  * Developed a Bubble Chart analyzing **Average Rating Over Run Time And Viewership**, proving how audience engagement scales with longer runtimes (up to a Max Run Time of **374 minutes**).
-* **Time-Series Insights:** Dual line charts tracking both the historical trajectory of *Average Ratings Over Time* and the density of *Movies per Year*.
+### Page 1 — Executive Overview
+
+* Overall KPIs and performance summary
+* Rating distribution analysis
+* Movie releases over time
+* Cinematic era segmentation
+
+### Page 2 — Audience Engagement & Global Insights
+
+* Vote distribution and popularity analysis
+* Global talent footprint across countries
+* Country-level contribution to top-rated cinema
+* Interactive filters for deeper exploration
+
+### Page 3 — Runtime & Advanced Analytics
+
+* Runtime vs. audience engagement correlation
+* Runtime vs. IMDb rating analysis
+* Decomposition Tree for audience vote analysis
+* Interactive drill-down into movie characteristics
 
 ---
 
-## 🛠️ Tech Stack & Skills Demonstrated
+## 📊 Key Insights
 
-* **Tool:** Microsoft Power BI / Power Query
-* **DAX Engineering:** Custom time-intelligence, filtering metrics, and dynamic conditional logic for Era leadership.
-* **UI/UX Design:** Implemented a highly scannable, customized dark theme aligned with IMDb’s official branding to improve user experience and visual hierarchy.
+* **250** of the highest-rated movies analyzed
+* **8.31** average IMDb rating
+* **188M+** total audience votes
+* Talent represented from **46 countries**
+* Movie release timeline spanning **1921–2025**
+
+### Highlights
+
+* 🎭 **Cinematic Era Classification**
+
+  * Custom DAX logic categorizes films into:
+
+    * Old Era
+    * Golden Classic Era
+    * New Era
+
+* 🌍 **Global Talent Analysis**
+
+  * Visualizes how filmmakers and actors from different countries contributed to cinema history.
+
+* 📈 **Audience Engagement Analysis**
+
+  * Examines the relationship between popularity, ratings, and audience participation.
+
+* ⏱️ **Runtime Analytics**
+
+  * Investigates whether longer films tend to receive higher ratings or attract more viewers.
+
+* 🔍 **Interactive Exploration**
+
+  * Cross-filtering, drill-down capabilities, decomposition trees, and dynamic slicers allow users to explore the dataset from multiple perspectives.
 
 ---
 
-## 🚀 How to View the Project
-1. Download the `Movie_imdb.pbix` file from this repository.
-2. Open it using **Power BI Desktop**.
+## 🛠️ Technologies Used
+
+* **Microsoft Power BI**
+* **Power Query (M)**
+* **DAX**
+* Data Modeling
+* Interactive Dashboard Design
+* Data Visualization
+* UI/UX Design
+
+---
+
+## 💡 Skills Demonstrated
+
+* Data Cleaning & Transformation
+* Data Modeling
+* Advanced DAX Calculations
+* KPI Development
+* Interactive Dashboard Design
+* Data Storytelling
+* Business Intelligence
+* Visual Analytics
+* UI/UX Principles
+
+---
+
+## 🚀 How to Use
+
+1. Clone or download this repository.
+2. Open the `Movie_imdb.pbix` file using **Microsoft Power BI Desktop**.
+3. Interact with the dashboard using the slicers, filters, and navigation buttons.
+4. Explore insights across all dashboard pages.
+
+---
+
+## 📁 Repository Contents
+
+```text
+├── Movie_imdb.pbix
+├── Dataset/
+├── Images/
+├── README.md
+```
+
+---
+
+## 🎯 Project Goal
+
+The objective of this project was to build a polished, portfolio-ready Power BI dashboard that demonstrates the complete analytics workflow—from data preparation and modeling to advanced DAX calculations, interactive visualizations, and effective data storytelling.
+
+The dashboard showcases how business intelligence techniques can be applied to entertainment data to uncover meaningful insights into audience behavior, movie characteristics, and the evolution of cinema over more than a century.
